@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo list</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- main div -->
+   <div class="main">
+         <!-- This is form -->
+    <div class="form_container">
+        <form>
+            <input type="text" id="field" placeholder="Task description..." class="textfield" name="textfield"/>
+            <input type="button" value="Add" class="btn" onclick="addTask()">
+        </form>
+    </div>
+
+    <!-- This is table -->
+    <div class="table_container">
+        <table border="2px">
+            <!-- Table Header -->
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Task</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <!-- Table body -->
+            <tbody>
+
+            </tbody>
+
+            <!-- Table footer -->
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+
+   </div>
+
+   <script src="./script.js" ></script>
+</body>
+
+</html>
